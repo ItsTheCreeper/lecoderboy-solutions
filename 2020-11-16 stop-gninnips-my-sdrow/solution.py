@@ -14,5 +14,6 @@ def spin_words(sentence):
             output += word
 
         output += " "
-        
+    
+    # return string with space ommited
     return output[:-1]
